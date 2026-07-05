@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* Page and heading layout */
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Game board centering */
+#board {
+  border-collapse: collapse;
+  margin: 16px auto;
+}
+
+/* Individual cell styling */
+.cell {
+  width: 80px;
+  height: 80px;
+  border: 3px solid #120a8f;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Restart button */
+#restart-btn {
+  margin-top: 16px;
+  padding: 8px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+}
